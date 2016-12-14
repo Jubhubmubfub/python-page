@@ -8,21 +8,40 @@
 .white-text {
   color: white;
 }
+.yellow-text {
+  color: yellow;
+}
 .rounded-corners {
   border-radius: 5px;
 }
 .rounded-corners2 {
   border-radius: 10px;
 }
+.text-center {
+  text-align: center;
+}
 .align-right {
   position: absolute;
-  right: 20px;
+  right: 10px;
 }
+.shadow {
+   box-shadow: 1px 1px 2px black;
+}
+.container {
+  display:inline-block;
+  border: 1px solid black;
+}
+/*wrapper*/
+
 .wrapper {
   font-family: sans-serif;
   width: 970px;
   padding-bottom: 1px;
+  position: relative;;
 }
+
+/*Top Bar*/
+
 .pythonPNG {
   display: inline-block;
 }
@@ -60,13 +79,13 @@ input {
 .text-size a {
   color: #e8b829;
 }
-.shadow {
-   box-shadow: 1px 1px 2px black;
-}
+
+/*Nav Bar*/
+
 .nav-bar {
   padding: 5px 20px 5px 30px;
   background-color: #5499bf;
-  margin: 0px 25px 0px 50px;
+  margin: 20px 25px 0px 50px;
 }
 .nav-bar ul {
   text-align: center;
@@ -81,6 +100,60 @@ input {
   color: white;
   text-decoration: none;
 }
+
+/*content 1*/
+.content-1 {
+  padding: 5px;
+  position:static;
+}
+.c1-links {
+
+}
+.c1-links ul {
+  text-align: center;
+}
+.c1-links ul li a {
+  color: white;
+}
+.c1-content {
+
+  width: 70%;
+}
+.content-1 div ul li {
+  list-style-type: none;
+  color: yellow;
+  font-style: italic;
+  margin: 10px;
+}
+
+/*content 2*/
+.blue-bar {
+  margin: 5px;
+  height: 5px;
+  background-color: #5499bf;
+}
+.content-2 {
+  background-color: white;
+  display:block;
+  text-align: center;
+}
+.c2-content {
+  display: inline-block;
+  width:40%;
+}
+.c2-content span {
+  color: #5499bf;
+}
+.c2-content ul li {
+  list-style-type: square;
+}
+.c2-content ul li a {
+  color: #5499bf;
+  text-decoration: none;
+}
+
+/*bottom bar*/
+
 .bottom-links {
   text-align:center;
 }
